@@ -1,38 +1,74 @@
-# DIO - Trilha .NET - Fundamentos
-www.dio.me
+<div align="center">
+    <h1>Decola Tech 2024</h1>
+</div>
+<br><br>
 
-## Desafio de projeto
-Para este desafio, você precisará usar seus conhecimentos adquiridos no módulo de fundamentos, da trilha .NET da DIO.
+<div align="center">
+    <img src="assets\images\dio-logo.png" width="250" height="100" hspace="25">
+    <img src="assets\images\avanade-logo.png" width="300" height="100" hspace="25">               
+</div>
+<br><br>
 
-## Contexto
-Você foi contratado para construir um sistema para um estacionamento, que será usado para gerenciar os veículos estacionados e realizar suas operações, como por exemplo adicionar um veículo, remover um veículo (e exibir o valor cobrado durante o período) e listar os veículos.
+<div align="center"><img src="assets\images\bootcamp-logo.png" width="" height="300" hspace="">
+</div>
+<br><br>
 
-## Proposta
-Você precisará construir uma classe chamada "Estacionamento", conforme o diagrama abaixo:
-![Diagrama de classe estacionamento](diagrama_classe_estacionamento.png)
+<div align="center"><img src="assets\images\bootcamp-dio.png" width="300" height="" hspace="10">
+</div>     
+<br><br>
 
-A classe contém três variáveis, sendo:
+<div align="center">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40" height="40" hspace="10">          
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width="40" height="40" hspace="10">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" width="40" height="40" hspace="10">                    
+</div>
+<br><br>
 
-**precoInicial**: Tipo decimal. É o preço cobrado para deixar seu veículo estacionado.
+<div align="center">
+    <img src="https://img.shields.io/badge/IN%C3%8DCIO-22%2F12%2F2023-green" hspace="5"/>
+    <img src="https://img.shields.io/badge/T%C3%89RMINO-14%2F01%2F2024-red" hspace="5"/>
+</div>
+<br>
+<hr>
 
-**precoPorHora**: Tipo decimal. É o preço por hora que o veículo permanecer estacionado.
+## Introdução
+Olá,
 
-**veiculos**: É uma lista de string, representando uma coleção de veículos estacionados. Contém apenas a placa do veículo.
+Esse repositório corresponde ao projeto "Construindo um Sistema para um Estacionamento com C#" da [DIO - Digital Innovation One](https://www.dio.me/).
+<hr>
 
-A classe contém três métodos, sendo:
+## Objetivo
 
-**AdicionarVeiculo**: Método responsável por receber uma placa digitada pelo usuário e guardar na variável **veiculos**.
+Esse desafio teve a proposta de construir um sistema para um estacionamento, que será usado para gerenciar os veículos estacionados e realizar suas operações, como por exemplo adicionar um veículo, remover um veículo (e exibir o valor cobrado durante o período) e listar os veículos.
 
-**RemoverVeiculo**: Método responsável por verificar se um determinado veículo está estacionado, e caso positivo, irá pedir a quantidade de horas que ele permaneceu no estacionamento. Após isso, realiza o seguinte cálculo: **precoInicial** * **precoPorHora**, exibindo para o usuário.
+Explorado todos os conceitos que aprendemos nessa imersão e replicado este projeto prático. 
+<br><br>
+<hr>
 
-**ListarVeiculos**: Lista todos os veículos presentes atualmente no estacionamento. Caso não haja nenhum, exibir a mensagem "Não há veículos estacionados".
+## Próximos passos
 
-Por último, deverá ser feito um menu interativo com as seguintes ações implementadas:
-1. Cadastrar veículo
-2. Remover veículo
-3. Listar veículos
-4. Encerrar
+Realizar futuras implementações para evolução do projeto inicial (projeto base), tais como, implementações adicionais e refatoração do código.
+<hr>
 
+## Tecnologias Utilizadas
 
-## Solução
-O código está pela metade, e você deverá dar continuidade obedecendo as regras descritas acima, para que no final, tenhamos um programa funcional. Procure pela palavra comentada "TODO" no código, em seguida, implemente conforme as regras acima.
+<img align=center src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width="100" height="50" hspace="5" style="margin-left: 10px"/> 
+
+## Cursos Envolvidos
+### **Decola Tech 2024** 
+#### **Dominando a Linguagem de Programação C#:**
+
+- Construindo um Sistema para um Estacionamento com C#.
+<hr>
+
+## Repositório Original do GitHub
+
+Referência direta ao código-fonte original.
+
+- Leonardo Buta: [Leonardo Buta](https://github.com/leonardo-buta/)
+
+- Endereço: [trilha-net-fundamentos-desafio](https://github.com/digitalinnovationone/trilha-net-fundamentos-desafio)
+<hr>
+
+## Agradecimentos
+Gostaria de agradecer a [DIO - Digital Innovation One](https://www.dio.me/) e ao instrutor [Leonardo Buta](https://github.com/leonardo-buta/) por compartilhar seu conhecimento.
